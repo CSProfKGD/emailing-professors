@@ -27,6 +27,7 @@ Tests execute the real SQL migration in PGlite (PostgreSQL) with authenticated, 
 2. Run these files **in order, once** in its SQL editor:
    - `supabase/migrations/001_margin_notes.sql`
    - `supabase/migrations/002_article.sql`
+   - `supabase/migrations/003_update_introduction.sql`
 3. In Supabase Auth, enable Google and GitHub and configure each provider's OAuth client. Use the callback URL supplied by Supabase (`https://YOUR_PROJECT.supabase.co/auth/v1/callback`) in each provider's developer console. Keep provider client secrets only in Supabase.
 4. Set the Supabase Auth Site URL to the final website origin. Add explicit redirect URLs for both the article and moderation page on that origin, and the local URLs if using local testing:
    - `http://127.0.0.1:4173/`
@@ -60,7 +61,7 @@ Supabase references: [OAuth sign-in](https://supabase.com/docs/reference/javascr
 
 ## Text anchoring and article edits
 
-`src/article.json` contains stable section IDs and verbatim paragraphs. The HTML uses matching passage IDs. Keep IDs stable when editing existing passages; do not renumber existing IDs when inserting paragraphs. Update the JSON, HTML, and the `articles.sections` database snapshot together in a new migration after publication. Do not rerun or overwrite applied migrations.
+`src/article.json` contains stable section IDs and verbatim paragraphs. The HTML uses matching passage IDs. Sections may specify `paragraphIds` to preserve anchors when paragraphs are inserted. Keep IDs stable when editing existing passages; do not renumber existing IDs when inserting paragraphs. Update the JSON, HTML, and the `articles.sections` database snapshot together in a new migration after publication. Do not rerun or overwrite applied migrations.
 
 Anchors store the exact quote, up to 64 characters on each side, a passage identifier, and UTF-16 offsets. Selections crossing paragraph boundaries use an `article-body` canonical text joined by double newlines. The reader verifies the stored location and surrounding quote context, then searches for a unique context match if needed. Changed or ambiguous matches remain unattached. The moderator queue computes orphan status against the current article and persists it through a moderator-only RPC. Orphaned notes can be inspected, rejected, or deleted; there is no automatic fuzzy attachment.
 

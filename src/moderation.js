@@ -2,7 +2,7 @@ import { configured, session, signIn, signOut, rpc } from './api.js';
 import { el, button, message, busy, noteMeta } from './ui.js';
 import { resolveAnchor, fromStored } from './anchors.js';
 import sections from './article.json';
-const passages = new Map(sections.flatMap(s => s.paragraphs.map((p, i) => [`${s.id}:${i}`, p])));
+const passages = new Map(sections.flatMap(s => s.paragraphs.map((p, i) => [s.paragraphIds?.[i] ?? `${s.id}:${i}`, p])));
 passages.set('article-body', sections.flatMap(s => [...(s.heading ? [s.heading] : []), ...s.paragraphs]).join('\n\n'));
 const access = document.querySelector('#moderator-access');
 const queue = document.querySelector('#queue');

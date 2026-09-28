@@ -19,6 +19,7 @@ test('real PostgreSQL policies and guarded functions cover the reader/moderator 
  await db.exec(`create role anon; create role authenticated; create schema auth; create table auth.users(id uuid primary key); create function auth.uid() returns uuid language sql stable as $$ select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid $$; grant usage on schema auth to anon,authenticated; grant execute on function auth.uid() to anon,authenticated; insert into auth.users values('${reader}'),('${other}'),('${moderator}');`);
  await db.exec(await readFile('supabase/migrations/001_margin_notes.sql','utf8'));
  await db.exec(await readFile('supabase/migrations/002_article.sql','utf8'));
+ await db.exec(await readFile('supabase/migrations/003_update_introduction.sql','utf8'));
  await db.query('insert into public.articles(id,title,sections) values($1,$2,$3)',['test','Test',JSON.stringify({'intro:0':'Be specific and genuine.'})]);
  await db.query('insert into margin_private.moderators values($1)',[moderator]);
  let privateId,pendingId,replyId;
