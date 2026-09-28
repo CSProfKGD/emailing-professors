@@ -115,9 +115,19 @@
       "Give me the information that helps me answer one question:",
       "Why might this person be a good researcher in my lab?",
       "That could include research experience, a thesis, an interesting project, publications, relevant industry experience, open-source contributions, or other evidence that you can tackle difficult problems.",
+      "Ultimately, when reviewing an application, I am looking for a signal that you can succeed. That signal can come from advanced courses you have taken, research experience, work experience, or other parts of your background. But it needs to connect to my own research in some way.",
       "You don’t need to tell me everything you have ever done.",
       "This is an email, not your autobiography.",
       "Highlight the things that matter for this particular lab and let your CV provide the details."
+    ],
+    "paragraphIds": [
+      "what-should-i-tell-the-professor-about-myself:0",
+      "what-should-i-tell-the-professor-about-myself:1",
+      "what-should-i-tell-the-professor-about-myself:2",
+      "what-should-i-tell-the-professor-about-myself:signal-of-success",
+      "what-should-i-tell-the-professor-about-myself:3",
+      "what-should-i-tell-the-professor-about-myself:4",
+      "what-should-i-tell-the-professor-about-myself:5"
     ]
   },
   {
@@ -210,9 +220,19 @@
       "There is no magic template, and that is partly the point.",
       "A good email is short, specific, and genuine. It shows that you know who you are writing to. It gives the professor enough information to understand why there might be a match. And it makes it easy to learn more about you.",
       "Don’t obsess over finding the perfect words.",
+      "Once you have written a genuine letter in your own words, an LLM can help improve its flow. Start with your own ideas and reasons for reaching out, then use it to help you express them more clearly.",
       "Do your homework. Keep it short. Make it personal. Give the professor a reason to want to know more.",
       "You may only get one shot at catching their attention.",
       "Make it count."
+    ],
+    "paragraphIds": [
+      "so-what-does-a-good-email-look-like:0",
+      "so-what-does-a-good-email-look-like:1",
+      "so-what-does-a-good-email-look-like:2",
+      "so-what-does-a-good-email-look-like:llm-flow",
+      "so-what-does-a-good-email-look-like:3",
+      "so-what-does-a-good-email-look-like:4",
+      "so-what-does-a-good-email-look-like:5"
     ]
   }
 ]
