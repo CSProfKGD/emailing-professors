@@ -91,6 +91,7 @@
     "heading": "Should I mention one of the professor’s papers?",
     "paragraphs": [
       "If it genuinely interested you, absolutely. If it’s just a random paper you selected from the professor’s publication list, please don’t. It’s painfully obvious when this is done, and it does not reflect well on you.",
+      "It’s not uncommon for a student to reference a paper I worked on in 2015. That was over a decade ago. In arXiv years, that’s like a century. My research interests have moved on.",
       "Focus on recent work. Better yet, try to anticipate where it might go next. What questions remain open? What would be a natural next step? Show me that you are thinking about where we can take this research together as well as what it has already accomplished.",
       "But don’t just tell me that you read it.",
       "Tell me something about it.",
@@ -100,6 +101,7 @@
     ],
     "paragraphIds": [
       "should-i-mention-one-of-the-professor-s-papers:0",
+      "should-i-mention-one-of-the-professor-s-papers:older-paper-example",
       "should-i-mention-one-of-the-professor-s-papers:recent-directions",
       "should-i-mention-one-of-the-professor-s-papers:1",
       "should-i-mention-one-of-the-professor-s-papers:2",
