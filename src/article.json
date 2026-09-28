@@ -25,7 +25,14 @@
     "paragraphs": [
       "Yes. At least I do.",
       "But professors receive a lot of email, and prospective-student emails are competing for attention with everything else in the inbox.",
+      "A professor's email time is limited.  Every minute on email takes away from their own students.",
       "You don’t need a clever subject line or an elaborate introduction. You need to quickly give me a reason to keep reading."
+    ],
+    "paragraphIds": [
+      "do-professors-actually-read-these-emails:0",
+      "do-professors-actually-read-these-emails:1",
+      "do-professors-actually-read-these-emails:email-time",
+      "do-professors-actually-read-these-emails:2"
     ]
   },
   {
