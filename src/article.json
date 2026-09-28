@@ -91,11 +91,21 @@
     "heading": "Should I mention one of the professor’s papers?",
     "paragraphs": [
       "If it genuinely interested you, absolutely.",
+      "Focus on recent work. Better yet, try to anticipate where it might go next. What questions remain open? What would be a natural next step? Show me that you are thinking about where the research could go, as well as what it has already accomplished.",
       "But don’t just tell me that you read it.",
       "Tell me something about it.",
       "What did you find interesting? How does it connect to your previous work? Did it make you think about a related problem?",
       "“I read your paper on X and found it fascinating” tells me very little.",
       "A specific observation tells me that you actually engaged with the work."
+    ],
+    "paragraphIds": [
+      "should-i-mention-one-of-the-professor-s-papers:0",
+      "should-i-mention-one-of-the-professor-s-papers:recent-directions",
+      "should-i-mention-one-of-the-professor-s-papers:1",
+      "should-i-mention-one-of-the-professor-s-papers:2",
+      "should-i-mention-one-of-the-professor-s-papers:3",
+      "should-i-mention-one-of-the-professor-s-papers:4",
+      "should-i-mention-one-of-the-professor-s-papers:5"
     ]
   },
   {
@@ -120,7 +130,18 @@
       "Why are you contacting me?",
       "Why might there be a research fit?",
       "If answering those questions requires scrolling through several screens of text, your email is probably too long.",
+      "Don’t simply copy and paste your general statement of purpose into the email.",
       "Respect the reader’s time."
+    ],
+    "paragraphIds": [
+      "how-long-should-the-email-be:0",
+      "how-long-should-the-email-be:1",
+      "how-long-should-the-email-be:2",
+      "how-long-should-the-email-be:3",
+      "how-long-should-the-email-be:4",
+      "how-long-should-the-email-be:5",
+      "how-long-should-the-email-be:statement-of-purpose",
+      "how-long-should-the-email-be:6"
     ]
   },
   {
