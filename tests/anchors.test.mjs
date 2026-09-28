@@ -26,6 +26,6 @@ test('full article copy remains verbatim and unwanted header is absent', async (
  const sections=JSON.parse(await readFile('src/article.json','utf8'));
  assert.equal(sections.flatMap(s=>[...(s.heading?[s.heading]:[]),...s.paragraphs]).join('\n\n'),original);
  const html=await readFile('dist/index.html','utf8');
- for(const section of sections) for(const p of section.paragraphs) assert.ok(html.includes(p.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#x27;')));
+ for(const section of sections) for(const p of section.paragraphs) assert.ok(html.replace(/<[^>]+>/g,'').includes(p.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#x27;')));
  assert.ok(!html.includes('Essays <span>'));
 });

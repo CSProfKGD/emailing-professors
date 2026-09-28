@@ -10,6 +10,14 @@ This matters even more in the age of AI. It has never been easier to generate a 
 
 So, how should you email a professor about a graduate position? Here are my answers to some common questions.
 
+Where should I start?
+
+Don’t start by targeting institutions. Start by identifying professors whose research resonates with your interests.
+
+In computer science, one starting point is CSRankings.org, where you can explore faculty publication activity in particular research areas.
+
+Choose the areas that interest you, look for active researchers, and then explore their lab webpages and recent papers.
+
 Do professors actually read these emails?
 
 Yes. At least I do.
