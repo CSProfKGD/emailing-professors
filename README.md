@@ -140,3 +140,16 @@ Live OAuth and persistence through a hosted Supabase project cannot be verified 
 The Pages workflow deploys `dist/` on pushes to `main`. In Settings → Pages, select GitHub Actions. Relative asset and navigation URLs support project subdirectories.
 
 Set repository Actions variables `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY` before enabling live notes, then rerun the workflow. Only the publishable/anon key belongs here; never use a service-role key or OAuth secret. Configure Supabase Auth redirects for the complete project URL, including the repository path, and its `moderation.html` URL.
+
+## Current hosted setup
+
+- Public essay: https://csprofkgd.github.io/emailing-professors/
+- Author moderation: https://csprofkgd.github.io/emailing-professors/moderation.html
+- Supabase project: `acyjpcddnnkoadufptod`.
+- The fresh database was initialized with `001_margin_notes.sql`, `002_article.sql`, and the complete current article snapshot in `053_tldr_heading.sql`. Do not rerun the initial schema; apply only future migrations.
+- GitHub OAuth is enabled for the site-specific “Margin Notes — Emailing Professors” application. Its exact callback is `https://acyjpcddnnkoadufptod.supabase.co/auth/v1/callback`. The client secret is stored only in Supabase.
+- Supabase Site URL is the public essay URL. The explicit allowed redirects are the essay URL and its `moderation.html` URL.
+- The UI offers GitHub sign-in. Google has not been configured.
+- GitHub Actions public variables supply the Supabase URL and publishable key; no privileged keys are deployed.
+
+Live verification completed: GitHub OAuth sign-in, author-role enforcement, note creation/persistence, the pending moderation queue, anonymous invisibility of a pending note, and rejection. Automated tests cover approval/reply visibility, ownership, blocked-user restrictions, validation, and anchoring; these flows have not all been repeated with multiple live accounts. Moderator assignments are managed privately in Supabase and are not recorded in this public repository.
