@@ -4,7 +4,7 @@
     "heading": null,
     "paragraphs": [
       "It’s that time of year again: graduate admissions season.",
-      "Every year, I receive many emails from prospective graduate students interested in joining my lab. Some catch my attention. Many do not. This doesn’t mean the students are not a fit, but they have failed to make a compelling case for me to invest more time in learning about them. In the end, it’s a loss for both of us.",
+      "Every year, I receive many emails from prospective graduate students interested in joining my lab. Some catch my attention. Many do not. This doesn’t mean the students are not a fit, but their emails haven’t given me enough to recognize that fit and look further. In the end, it’s a loss for both of us.",
       "The difference is not fancy formatting or perfect prose. It is much simpler: Has the student made a convincing case that they are genuinely interested in my lab and the type of supervision I can provide? Is there something in their email that suggests they could succeed in a graduate program? Do they show the potential to conduct independent research?",
       "We professors get it. Students are trying to avoid mounting application costs while also looking for an edge in a competitive admissions process.",
       "This matters even more in the age of AI. It has never been easier to generate a polished email that sounds professional while saying almost nothing.",
@@ -63,7 +63,7 @@
     "paragraphs": [
       "Yes. At least I do.",
       "But professors receive a lot of email, and prospective-student emails are competing for attention with everything else in the inbox.",
-      "Like everyone else, a professor's email time is limited. Most do not have an administrative assistant to wade through mountains of emails. Every minute on email takes away from their own students. The question is: how do you differentiate yourself amid the onslaught of generic, AI-generated, templated emails?",
+      "Like everyone else, a professor's email time is limited. Most do not have an administrative assistant to wade through mountains of emails. Email competes with the time they spend supporting their own students. The question is: how do you differentiate yourself among the many generic, AI-generated, templated emails?",
       "You don’t need a clever subject line or an elaborate introduction. You need to quickly give me a reason to keep reading."
     ],
     "paragraphIds": [
@@ -77,15 +77,13 @@
     "id": "what-should-i-do-before-emailing",
     "heading": "What should I do before emailing?",
     "paragraphs": [
-      "Do your due diligence. Yes, that means homework.",
+      "Do your homework.",
       "Start with the professor’s webpage. What does their lab work on? Are they accepting students? Have they provided instructions for prospective students? What have they published recently?",
-      "A professor’s email is not a general information centre.",
-      "If the answer to your question is prominently displayed on my webpage, asking me the same question in an email is not a great first impression."
+      "Check whether your question is already answered on my webpage. That leaves more room in your email to explain your interests and ask something specific."
     ],
     "paragraphIds": [
       "what-should-i-do-before-emailing:0",
       "what-should-i-do-before-emailing:1",
-      "what-should-i-do-before-emailing:2",
       "what-should-i-do-before-emailing:3"
     ]
   },
@@ -155,7 +153,7 @@
     "id": "should-i-mention-one-of-the-professor-s-papers",
     "heading": "Should I mention one of the professor’s papers?",
     "paragraphs": [
-      "If it genuinely interested you, absolutely. But don’t pick a random paper from the professor’s publication list. It’s painfully obvious and does not reflect well on you.",
+      "If it genuinely interested you, absolutely. But don’t pick a random paper from the professor’s publication list. A passing reference does little to show why the research interests you.",
       "Students sometimes reference a paper I worked on in 2015. That was over a decade ago! In arXiv years, that’s a century. My research interests have moved on.",
       "Focus on recent work and where it might lead. What questions remain open? What could we explore together?",
       "“I read your paper on X and found it fascinating” tells me very little. Tell me what caught your attention, how it connects to your work, or what new question it raised. One specific observation shows that you actually engaged with the research."
@@ -227,14 +225,12 @@
     "paragraphs": [
       "Of course, if your email piques my interest, I immediately go to the attached CV.",
       "Make it easy for me to learn more about you.",
-      "If you have a personal webpage, Google Scholar profile, GitHub repository, or other relevant work, include links where appropriate.",
-      "Don’t make me hunt for information."
+      "If you have a personal webpage, Google Scholar profile, GitHub repository, or other relevant work, include links where appropriate."
     ],
     "paragraphIds": [
       "should-i-attach-my-cv:piqued-interest",
       "should-i-attach-my-cv:1",
-      "should-i-attach-my-cv:2",
-      "should-i-attach-my-cv:3"
+      "should-i-attach-my-cv:2"
     ]
   },
   {
@@ -293,10 +289,10 @@
     "id": "should-i-send-a-follow-up-if-i-don-t-hear-back",
     "heading": "Should I send a follow-up if I don’t hear back?",
     "paragraphs": [
-      "Personally, I prefer that you don’t follow up. I read my emails, trust me. That is my preference, not a universal rule: other professors may welcome one polite follow-up. Check their instructions and respect any preference they state.",
+      "Personally, I prefer that you don’t follow up. That is my preference, not a universal rule: other professors may welcome one polite follow-up. Check their instructions and respect any preference they state.",
       "Professors are busy. They may not have funding. They may already have enough students. They may be travelling. They may simply have missed your email.",
       "I fund all my students at a level that allows them to focus on their research. That means my funding can only support a limited number of students, as much as I would like to take on more.",
-      "I also value my time. I keep my lab relatively small, with five or six graduate students at a time, so I can work closely with each of them.",
+      "I keep my lab relatively small, with five or six graduate students at a time, so I can work closely with each of them.",
       "Even when a professor has the funding and time to take on another student, they may simply not see a strong fit with their lab.",
       "No response is frustrating, but repeatedly emailing is unlikely to change the outcome."
     ],

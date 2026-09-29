@@ -69,6 +69,7 @@ Tests execute the real SQL migration in PGlite (PostgreSQL) with authenticated, 
    - `supabase/migrations/042_refine_perfect_words.sql`
    - `supabase/migrations/043_restructure_and_clarify.sql`
    - `supabase/migrations/044_research_opportunities.sql`
+   - `supabase/migrations/045_light_tone_pass.sql`
 3. In Supabase Auth, enable Google and GitHub and configure each provider's OAuth client. Use the callback URL supplied by Supabase (`https://YOUR_PROJECT.supabase.co/auth/v1/callback`) in each provider's developer console. Keep provider client secrets only in Supabase.
 4. Set the Supabase Auth Site URL to the final website origin. Add explicit redirect URLs for both the article and moderation page on that origin, and the local URLs if using local testing:
    - `http://127.0.0.1:4173/`
