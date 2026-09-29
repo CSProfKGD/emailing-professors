@@ -141,10 +141,16 @@
   },
   {
     "id": "how-should-i-present-my-experience",
-    "heading": "How should I present my experience?",
+    "heading": "Should I oversell my experience?",
     "paragraphs": [
-      "Definitely be honest. Don’t oversell yourself. Exaggerated claims can unravel during the interview process.",
+      "Definitely not. Be honest about your experience and what you have accomplished. Exaggerated claims have a way of unraveling during the interview process.",
+      "More importantly, a successful graduate student-supervisor relationship depends on trust. Starting that relationship by misrepresenting yourself is not a good foundation.",
       "Years ago, I received an email from a student claiming multiple undergraduate internships with well-known people in my research community. I was excited at first. But after contacting those professors for more information, I learned that they had never worked together. There had only been a few email exchanges."
+    ],
+    "paragraphIds": [
+      "how-should-i-present-my-experience:0",
+      "how-should-i-present-my-experience:trust",
+      "how-should-i-present-my-experience:1"
     ]
   },
   {
