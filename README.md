@@ -134,3 +134,9 @@ Use two reader accounts and the author account:
 7. Test selection using a physical touch device and keyboard-only navigation. Check sheet scrolling, focus return, and Escape dismissal.
 
 Live OAuth and persistence through a hosted Supabase project cannot be verified until project configuration and the author account are supplied.
+
+## GitHub Pages
+
+The Pages workflow deploys `dist/` on pushes to `main`. In Settings → Pages, select GitHub Actions. Relative asset and navigation URLs support project subdirectories.
+
+Set repository Actions variables `SUPABASE_URL` and `SUPABASE_PUBLISHABLE_KEY` before enabling live notes, then rerun the workflow. Only the publishable/anon key belongs here; never use a service-role key or OAuth secret. Configure Supabase Auth redirects for the complete project URL, including the repository path, and its `moderation.html` URL.
