@@ -223,25 +223,17 @@
   },
   {
     "id": "should-i-attach-my-cv",
-    "heading": "Should I attach my CV?",
+    "heading": "Should I attach my CV or a transcript?",
     "paragraphs": [
       "Of course, if your email piques my interest, I immediately go to the attached CV.",
       "Make it easy for me to learn more about you.",
-      "If you have a personal webpage, Google Scholar profile, GitHub repository, or other relevant work, include links where appropriate."
+      "If you have a personal webpage, Google Scholar profile, GitHub repository, or other relevant work, include links where appropriate.",
+      "Sure. A transcript is another piece of evidence I can review if your email catches my attention. Follow any instructions the professor provides about attachments."
     ],
     "paragraphIds": [
       "should-i-attach-my-cv:piqued-interest",
       "should-i-attach-my-cv:1",
-      "should-i-attach-my-cv:2"
-    ]
-  },
-  {
-    "id": "should-i-attach-a-transcript",
-    "heading": "Should I attach a transcript?",
-    "paragraphs": [
-      "Sure. A transcript is another piece of evidence I can review if your email catches my attention. Follow any instructions the professor provides about attachments."
-    ],
-    "paragraphIds": [
+      "should-i-attach-my-cv:2",
       "should-i-attach-a-transcript:0"
     ]
   },
