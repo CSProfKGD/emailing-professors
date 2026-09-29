@@ -38,7 +38,7 @@ function authPanel(after) {
   if (!configured) return el('div', {}, message('Margin Notes is not available yet. You can still read the full article.'), el('p', { className: 'hint' }, 'Nothing you enter will be submitted until sign-in is available.'));
   const err = el('div');
   return el('div', {}, el('p', {}, 'Sign in to save private notes or submit a note for author review.'),
-    el('div', { className: 'actions' }, ...['google', 'github'].map(provider => button(`Continue with ${provider === 'google' ? 'Google' : 'GitHub'}`, event => busy(event.currentTarget, async () => { if (after) after(); await signIn(provider); }, err)))), err);
+    el('div', { className: 'actions' }, ...['github'].map(provider => button(`Continue with ${provider === 'google' ? 'Google' : 'GitHub'}`, event => busy(event.currentTarget, async () => { if (after) after(); await signIn(provider); }, err)))), err);
 }
 function preserveDraft(form, anchor) {
   try { sessionStorage.setItem('margin-draft', JSON.stringify({ anchor, body: form.elements.body.value, name: form.elements.displayName.value, visibility: form.elements.visibility?.value })); } catch { /* Storage may be disabled; keep the current composer intact. */ }

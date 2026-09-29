@@ -56,7 +56,7 @@ async function init() {
   if (!configured) { access.replaceChildren(message('Author moderation will be available once Margin Notes is connected.')); return; }
   try {
     if (!await session()) {
-      const err = el('div'); access.replaceChildren(message('Sign in with the account designated as the author.'), el('div', { className: 'actions' }, ...['google', 'github'].map(provider => button(`Continue with ${provider === 'google' ? 'Google' : 'GitHub'}`, e => busy(e.currentTarget, () => signIn(provider), err)))), err); return;
+      const err = el('div'); access.replaceChildren(message('Sign in with the account designated as the author.'), el('div', { className: 'actions' }, ...['github'].map(provider => button(`Continue with ${provider === 'google' ? 'Google' : 'GitHub'}`, e => busy(e.currentTarget, () => signIn(provider), err)))), err); return;
     }
     const account = document.querySelector('#account'); account.hidden = false;
     account.onclick = e => busy(e.currentTarget, async () => { await signOut(); location.reload(); }, access);
