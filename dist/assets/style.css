@@ -7,4 +7,27 @@
 /* Number questions without changing the article text used by Margin Notes. */
 article{counter-reset:question}article .essay-section>h2{counter-increment:question;display:grid;grid-template-columns:1.6em minmax(0,1fr);column-gap:.35em}article .essay-section>h2::before{content:counter(question) ".";color:var(--muted);font-family:system-ui,sans-serif;font-size:.6em;font-weight:400;line-height:2.25;font-variant-numeric:tabular-nums}
 
-.key-question{border-left:2px solid var(--accent);padding-left:1rem}.key-question p{margin-bottom:.65em}
+
+
+/* Reader layout: stable paragraph spacing and restrained navigation. */
+article .passage{display:flow-root;margin:0 0 1.15em}
+article .passage>p,article .passage>blockquote{margin-top:0;margin-bottom:0}
+article .essay-section>h2{display:block;position:relative}
+article .essay-section>h2::before{position:absolute;right:calc(100% + .8rem);top:.1em;font-size:.7em;line-height:1.65}
+.essay-section{scroll-margin-top:1.5rem}
+.key-questions{border-left:2px solid var(--accent);padding:.15rem 0 .15rem 1rem;margin:0 0 1.15em}
+article .key-questions .passage{margin:0 0 .45em}
+article .key-questions .passage:last-child{margin-bottom:0}
+.margin-intro{align-items:center;gap:1rem;padding-bottom:.9rem;margin-bottom:.8rem}
+.margin-intro h2{display:inline;font-size:.8125rem;margin:0 .4rem 0 0}
+.margin-intro p{display:inline;font-size:.8125rem;max-width:none;line-height:1.5}
+.margin-intro>div{flex:1}
+.margin-intro button{flex-shrink:0}
+.question-index{margin:0 0 2rem;font:.875rem/1.5 system-ui,sans-serif;color:var(--muted)}
+.question-index summary{cursor:pointer;width:fit-content;padding:.4rem 0;color:var(--accent)}
+.question-index summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.question-index nav{padding:.5rem 0 0}
+.question-index ol{margin:.25rem 0 0;padding-left:1.5rem;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:2rem;row-gap:.25rem}
+.question-index a{display:inline-block;padding:.3rem 0;text-decoration-thickness:1px}
+@media(max-width:640px){article .essay-section>h2{display:grid;grid-template-columns:1.3em minmax(0,1fr);column-gap:.3em}article .essay-section>h2::before{position:static;font-size:.7em;line-height:1.9}.margin-intro{display:flex;align-items:flex-start;flex-wrap:wrap;gap:.25rem .8rem}.margin-intro>div{flex-basis:100%}.margin-intro button{margin-top:0}.question-index ol{grid-template-columns:1fr}.question-index{margin-bottom:1.6rem}}
+@media print{.question-index{display:none}}
