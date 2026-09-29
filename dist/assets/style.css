@@ -6,3 +6,5 @@
 
 /* Number questions without changing the article text used by Margin Notes. */
 article{counter-reset:question}article .essay-section>h2{counter-increment:question;display:grid;grid-template-columns:1.6em minmax(0,1fr);column-gap:.35em}article .essay-section>h2::before{content:counter(question) ".";color:var(--muted);font-family:system-ui,sans-serif;font-size:.6em;font-weight:400;line-height:2.25;font-variant-numeric:tabular-nums}
+
+.key-question{border-left:2px solid var(--accent);padding-left:1rem}.key-question p{margin-bottom:.65em}

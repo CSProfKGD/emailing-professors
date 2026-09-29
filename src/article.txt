@@ -8,13 +8,31 @@ We professors get it. Students are trying to avoid mounting application costs wh
 
 This matters even more in the age of AI. It has never been easier to generate a polished email that sounds professional while saying almost nothing.
 
-So, how should you email a professor about a graduate position? Here are my answers to some common questions. I recognize that different people are looking for different things. I’m offering my perspective, which I suspect is shared by many other professors. This is meant to be a living document. Have a differing opinion? Share your thoughts as a note. Notes submitted to the author are moderated, and approved notes will be made public. I’m always looking to learn from others.
+So, how should you email a professor about a graduate position? Here are my answers to some common questions. I recognize that different people are looking for different things. I’m offering my perspective, which I suspect is shared by many other professors. This is meant to be a living document. Fellow professors: do you approach this differently? Add your perspective in Margin Notes, especially where you disagree. Students’ questions and experiences are welcome too. Notes submitted to the author are moderated, and approved notes will be made public. I’m always looking to learn from others.
+
+What am I actually trying to accomplish with this email?
+
+Your goal is not to convince a professor to admit you based on one email.
+
+Your goal is to make them curious enough to open your CV, look at your work, or arrange a conversation.
+
+Make it easy for the professor to answer three questions:
+
+Who are you?
+
+Why me?
+
+Why might there be a research fit?
+
+Think of the email as opening a door, not closing a deal.
 
 Where should I start?
 
 Don’t start by targeting institutions. Start by identifying professors whose research resonates with your interests.
 
 In computer science, one starting point is CSRankings.org, where you can explore faculty publication activity in particular research areas.
+
+Use CSRankings as a discovery tool, not a measure of supervisor quality or fit. Publication activity cannot tell you how someone mentors students or whether their lab is the right place for you.
 
 Choose the areas that interest you, look for active researchers, and then explore their personal and lab webpages, and recent papers.
 
@@ -55,6 +73,12 @@ This person might be a good fit for my lab.
 My friend sent many emails and it worked for them. Why shouldn’t I do it?
 
 That doesn’t mean this is the optimal way to approach the admissions process. It reminds me of stories about famous tech entrepreneurs who dropped out of university. That’s survivorship bias. For most, a well-crafted, personalized email has a better chance of catching a prof’s attention. There’s a lot of luck involved in this process, and it’s best to put yourself in the right place for that luck to strike.
+
+How should I address the professor?
+
+Keep it formal at first. “Dear Professor [Last Name]” is a good starting point. Use a less formal form of address when invited to do so.
+
+I tend to be informal with my students, but that is not a general rule. Let the professor set the tone.
 
 How personalized should the email be?
 
@@ -109,15 +133,7 @@ How long should the email be?
 
 Short. Very short.
 
-A professor should be able to understand three things very quickly:
-
-Who are you?
-
-Why are you contacting me?
-
-Why might there be a research fit?
-
-If answering those questions requires scrolling through several screens of text, your email is probably too long.
+If answering those three questions requires scrolling through several screens of text, your email is probably too long.
 
 Don’t simply copy and paste your general statement of purpose into the email.
 
@@ -132,6 +148,10 @@ Make it easy for me to learn more about you.
 If you have a personal webpage, Google Scholar profile, GitHub repository, or other relevant work, include links where appropriate.
 
 Don’t make me hunt for information.
+
+Should I attach a transcript?
+
+Sure. A transcript is another piece of evidence I can review if your email catches my attention. Follow any instructions the professor provides about attachments.
 
 What about my grades?
 
@@ -151,6 +171,10 @@ AI has made it incredibly easy to produce emails that are grammatically perfect,
 
 In fact, polished generic writing is becoming less informative precisely because it is now so cheap to produce.
 
+Don’t obsess over finding the perfect words at first.
+
+Once you have written a genuine letter in your own words, an LLM can help improve its flow. Start with your own ideas and reasons for reaching out, then use it to help you express them more clearly.
+
 Use AI to help you communicate your ideas clearly. Don’t use it to manufacture interest you don’t have or understanding you haven’t developed.
 
 AI can improve your writing. It cannot do your homework for you.
@@ -161,7 +185,7 @@ It is specificity.
 
 Should I send a follow-up if I don’t hear back?
 
-Personally, no. I get all the emails, trust me.
+Personally, I prefer that you don’t follow up. I read my emails, trust me. That is my preference, not a universal rule: other professors may welcome one polite follow-up. Check their instructions and respect any preference they state.
 
 Professors are busy. They may not have funding. They may already have enough students. They may be travelling. They may simply have missed your email.
 
@@ -173,40 +197,8 @@ Even when a professor has the funding and time to take on another student, they 
 
 No response is frustrating, but repeatedly emailing is unlikely to change the outcome.
 
-What am I actually trying to accomplish with this email?
+What should I remember?
 
-This is important.
-
-Your goal is not to convince a professor to admit you based on one email.
-
-Your goal is to make them curious enough to take the next step.
-
-Open your CV.
-
-Click on your webpage.
-
-Look at your research.
-
-Reply to your email.
-
-Perhaps arrange a conversation.
-
-Think of your email as a teaser: you want to pique the professor’s interest and make them want to learn more. If you don’t put effort into your email, why would you expect the professor to put effort into learning more about you?
-
-Think of the email as opening a door, not closing a deal.
-
-So what does a good email look like?
-
-There is no magic template, and that is partly the point.
-
-A good email is short, specific, and genuine. It shows that you know who you are writing to. It gives the professor enough information to understand why there might be a match. And it makes it easy to learn more about you.
-
-Don’t obsess over finding the perfect words at first.
-
-Once you have written a genuine letter in your own words, an LLM can help improve its flow. Start with your own ideas and reasons for reaching out, then use it to help you express them more clearly.
-
-Do your homework. Keep it short. Make it personal. Give the professor a reason to want to know more.
-
-You may only get one shot at catching their attention.
+Give the right professor a concrete reason to want to know more about you.
 
 Make it count and good luck!
