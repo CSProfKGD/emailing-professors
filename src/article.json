@@ -168,9 +168,17 @@
     "heading": "Should I attach my CV?",
     "paragraphs": [
       "Yes, unless the professor says otherwise.",
+      "Of course, if your email piques my interest, I immediately go to the attached CV.",
       "Make it easy for me to learn more about you.",
       "If you have a personal webpage, Google Scholar profile, GitHub repository, or other relevant work, include links where appropriate.",
       "Don’t make me hunt for information."
+    ],
+    "paragraphIds": [
+      "should-i-attach-my-cv:0",
+      "should-i-attach-my-cv:piqued-interest",
+      "should-i-attach-my-cv:1",
+      "should-i-attach-my-cv:2",
+      "should-i-attach-my-cv:3"
     ]
   },
   {
