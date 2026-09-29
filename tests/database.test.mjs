@@ -66,6 +66,7 @@ test('real PostgreSQL policies and guarded functions cover the reader/moderator 
  await db.exec(await readFile('supabase/migrations/047_email_reading_preference.sql','utf8'));
  await db.exec(await readFile('supabase/migrations/048_generic_email_heading.sql','utf8'));
  await db.exec(await readFile('supabase/migrations/049_group_papers.sql','utf8'));
+ await db.exec(await readFile('supabase/migrations/050_experience_anecdote.sql','utf8'));
  await db.query('insert into public.articles(id,title,sections) values($1,$2,$3)',['test','Test',JSON.stringify({'intro:0':'Be specific and genuine.'})]);
  await db.query('insert into margin_private.moderators values($1)',[moderator]);
  let privateId,pendingId,replyId;
