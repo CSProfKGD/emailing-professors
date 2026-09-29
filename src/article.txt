@@ -8,7 +8,7 @@ We professors get it. Students are trying to avoid mounting application costs wh
 
 This matters even more in the age of AI. It has never been easier to generate a polished email that sounds professional while saying almost nothing.
 
-So, how should you email a professor about a graduate position? Here are my answers to some common questions. I recognize that different people are looking for different things. I’m offering my perspective, which I suspect is shared by many other professors. Have a differing opinion? Share your thoughts as a note. I’m always looking to learn from others.
+So, how should you email a professor about a graduate position? Here are my answers to some common questions. I recognize that different people are looking for different things. I’m offering my perspective, which I suspect is shared by many other professors. This is meant to be a living document. Have a differing opinion? Share your thoughts as a note. Notes submitted to the author are moderated, and approved notes will be made public. I’m always looking to learn from others.
 
 Where should I start?
 
@@ -201,7 +201,7 @@ There is no magic template, and that is partly the point.
 
 A good email is short, specific, and genuine. It shows that you know who you are writing to. It gives the professor enough information to understand why there might be a match. And it makes it easy to learn more about you.
 
-Don’t obsess over finding the perfect words.
+Don’t obsess over finding the perfect words at first.
 
 Once you have written a genuine letter in your own words, an LLM can help improve its flow. Start with your own ideas and reasons for reaching out, then use it to help you express them more clearly.
 
